@@ -10,7 +10,7 @@
 
         <div class="body-2 mb-3">Szoftverfejlesző</div>
 
-        <p>Text</p>
+        <p>Szöveg...</p>
       </div>
 
       <v-divider />
@@ -22,7 +22,7 @@
 
         <div class="body-2 mb-3">Rendszergazda</div>
 
-        <p>Text</p>
+        <p>Szöveg...</p>
       </div>
     </div>
   </v-card>
