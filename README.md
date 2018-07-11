@@ -1,2 +1,2 @@
-# cv
-Custom cv written in Vuetify.
+# CV
+Custom CV written in Vuetify.

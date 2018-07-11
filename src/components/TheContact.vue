@@ -6,7 +6,6 @@
   >
     <v-layout
       class="layout"
-      row
       wrap
       justify-space-between
     >
@@ -20,21 +19,37 @@
               <h1 class="headline">Házi Dávid</h1>
 
               <div class="my-4">
-                <div>Cím: 5600 Békéscsaba, ...</div>
-                <div>Születési idő: 1992. június 10.</div>
+                <div>Lakhely: Békéscsaba</div>
+                <div>Születési dátum: 1992. június 10.</div>
               </div>
 
               <div>
                 <div>
-                  <v-icon>email</v-icon><span class="ml-2">kailniris92@gmail.com</span>
+                  <v-icon>email</v-icon>
+
+                  <span class="ml-2">
+                    <a href="mailto:kailniris92@gmail.com">kailniris92@gmail.com</a>
+                  </span>
                 </div>
 
                 <div class="my-2">
-                  <v-icon>phone</v-icon><span class="ml-2">+3620434...</span>
+                  <v-icon>phone</v-icon>
+
+                  <span class="ml-2">
+                    <a href="tel:+36204347062">+36204347062</a>
+                  </span>
                 </div>
 
                 <div>
-                  <v-icon>code</v-icon><span class="ml-2">github.com/kailniris</span>
+                  <v-icon>code</v-icon>
+
+                  <span class="ml-2">
+                    <a
+                      href="https://github.com/kailniris"
+                      target="_blank"
+                    >github.com/kailniris
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -43,8 +58,8 @@
       </v-flex>
 
       <v-flex
-        xs12
         sm4
+        hidden-xs-only
       >
         <v-card class="imageCard">
           <v-card-media
