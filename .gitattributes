@@ -1,1 +1,10 @@
 * text eol=lf
+
+## GRAPHICS
+*.bmp  binary
+*.gif  binary
+*.ico  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.svg  text
