@@ -11,6 +11,8 @@
         <div class="pageBreak" />
 
         <the-skills />
+
+        <the-languages />
       </v-container>
     </v-content>
   </v-app>
@@ -21,6 +23,7 @@ import TheContact from '@/components/TheContact.vue';
 import TheWorkHistory from '@/components/TheWorkHistory.vue';
 import TheEducation from '@/components/TheEducation.vue';
 import TheSkills from '@/components/TheSkills.vue';
+import TheLanguages from '@/components/TheLanguages.vue';
 
 export default {
   name: 'App',
@@ -29,6 +32,7 @@ export default {
     TheWorkHistory,
     TheEducation,
     TheSkills,
+    TheLanguages,
   },
 };
 </script>

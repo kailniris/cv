@@ -10,7 +10,12 @@
 
         <div class="body-2 mb-3">Szoftverfejlesző</div>
 
-        <p>Szöveg...</p>
+        <p>
+          Céges bemutatkozó weboldal, egyedi webáruház fejlesztése és integrálása a meglévő ERP rendszerhez.
+          Nagykereskedelmi ERP szoftver tervezése és fejlesztése.
+          Több fős informatikai csapat koordinálása és általuk írt szoftverek minőség ellenőrzése.
+          Számlázó szoftver bekötése a NAV online számla rendszerébe.
+        </p>
       </div>
 
       <v-divider />
@@ -22,7 +27,10 @@
 
         <div class="body-2 mb-3">Rendszergazda</div>
 
-        <p>Szöveg...</p>
+        <p>
+          Végellenőri rendszer fejlesztése ipari PDA-ra. Rendszergazdai feladatok, ERP és számlázó szoftverek tesztelése és felügyelete,
+          informatikai gyakornokok betanítása, termékfotózás és alap szintű marketing feladatok elvégzése.
+        </p>
       </div>
     </div>
   </v-card>

@@ -23,35 +23,55 @@
                 <div>Születési dátum: 1992. június 10.</div>
               </div>
 
-              <div>
-                <div>
-                  <v-icon>email</v-icon>
+              <img
+                :src="require('@/assets/photo.jpg')"
+                class="mobilePhoto hidden-sm-and-up"
+              >
 
-                  <span class="ml-2">
-                    <a href="mailto:kailniris92@gmail.com">kailniris92@gmail.com</a>
-                  </span>
-                </div>
+              <v-list class="py-0">
+                <v-list-tile class="tile">
+                  <v-list-tile-avatar>
+                    <v-icon>email</v-icon>
+                  </v-list-tile-avatar>
 
-                <div class="my-2">
-                  <v-icon>phone</v-icon>
+                  <v-list-tile-content>
+                    <v-list-tile-title>
+                      <a href="mailto:kailniris92@gmail.com">kailniris92@gmail.com</a>
+                    </v-list-tile-title>
+                  </v-list-tile-content>
+                </v-list-tile>
 
-                  <span class="ml-2">
-                    <a href="tel:+36204347062">+36204347062</a>
-                  </span>
-                </div>
+                <v-list-tile class="tile">
+                  <v-list-tile-avatar>
+                    <v-icon>phone</v-icon>
+                  </v-list-tile-avatar>
 
-                <div>
-                  <v-icon>code</v-icon>
+                  <v-list-tile-content>
+                    <v-list-tile-title>
+                      <a href="tel:+36204347062">+36204347062</a>
+                    </v-list-tile-title>
+                  </v-list-tile-content>
+                </v-list-tile>
 
-                  <span class="ml-2">
-                    <a
-                      href="https://github.com/kailniris"
-                      target="_blank"
-                    >github.com/kailniris
-                    </a>
-                  </span>
-                </div>
-              </div>
+                <v-list-tile class="tile">
+                  <v-list-tile-avatar>
+                    <img
+                      :src="require('@/assets/contact/github.png')"
+                      class="github"
+                    >
+                  </v-list-tile-avatar>
+
+                  <v-list-tile-content>
+                    <v-list-tile-title>
+                      <a
+                        href="https://github.com/kailniris"
+                        target="_blank"
+                      >github.com/kailniris
+                      </a>
+                    </v-list-tile-title>
+                  </v-list-tile-content>
+                </v-list-tile>
+              </v-list>
             </div>
           </v-card-title>
         </v-card>
@@ -79,9 +99,34 @@ export default {
 </script>
 
 <style scoped>
+.github {
+  height: 25px;
+  width: 25px;
+  opacity: 0.54;
+}
+
+.mobilePhoto {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 25vw;
+  border-radius: 8px;
+}
+
+@media print {
+  .mobilePhoto {
+    display: none;
+  }
+}
+
 .imageCard {
   max-width: 270px;
   margin-left: auto;
   margin-right: 0;
+}
+
+.tile >>> .v-list__tile {
+  padding: 0;
+  height: 30px;
 }
 </style>

@@ -10,6 +10,7 @@ import {
   VAvatar,
   VTooltip,
   VChip,
+  VList,
 } from 'vuetify';
 import '@/themes/main.styl';
 
@@ -24,6 +25,7 @@ Vue.use(Vuetify, {
     VAvatar,
     VTooltip,
     VChip,
+    VList,
   },
   theme: {
     primary: '#41b883',
