@@ -13,8 +13,8 @@
         <p>
           Céges bemutatkozó weboldal, egyedi webáruház fejlesztése és integrálása a meglévő ERP rendszerhez.
           Nagykereskedelmi ERP szoftver tervezése és fejlesztése.
-          Több fős informatikai csapat koordinálása és általuk írt szoftverek minőség ellenőrzése.
-          Számlázó szoftver bekötése a NAV online számla rendszerébe.
+          Többfős informatikai csapat koordinálása és az általuk írt szoftverek minőségellenőrzése.
+          Számlázószoftver bekötése a NAV Online Számla rendszerébe.
         </p>
       </div>
 
@@ -28,7 +28,7 @@
         <div class="body-2 mb-3">Rendszergazda</div>
 
         <p>
-          Végellenőri rendszer fejlesztése ipari PDA-ra. Rendszergazdai feladatok, ERP és számlázó szoftverek tesztelése és felügyelete,
+          Végellenőri rendszer fejlesztése ipari PDA-ra. Rendszergazdai feladatok, ERP és számlázószoftver tesztelése és felügyelete,
           informatikai gyakornokok betanítása, termékfotózás és alap szintű marketing feladatok elvégzése.
         </p>
       </div>

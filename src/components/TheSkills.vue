@@ -103,8 +103,8 @@ export default {
         'DevOps',
         'Linux',
         'CI',
-        'Software Testing',
-        'Network Administration',
+        'Szoftvertesztelés',
+        'Hálózati adminisztráció',
       ],
     };
   },
